@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.0635,
         "min_connection": 0.127,
         "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 1.016,
         "min_text_thickness": 0.1524,
         "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.127,
+        "min_track_width": 0.0635,
         "min_via_annular_width": 0.254,
         "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
@@ -214,6 +214,8 @@
       ],
       "track_widths": [
         0.0,
+        0.0635,
+        0.0635,
         0.254,
         0.508,
         1.016
@@ -547,13 +549,22 @@
         "microvia_drill": 0.0,
         "name": "HV",
         "pcb_color": "rgb(255, 121, 27)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 121, 27)",
         "track_width": 0.254,
         "tuning_profile": "",
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.0635,
+        "name": "fs1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0635,
+        "tuning_profile": ""
       }
     ],
     "meta": {
